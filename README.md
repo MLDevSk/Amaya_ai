@@ -1,5 +1,7 @@
 # Amaya AI
+
 **Link:-** https://amaya-ai.netlify.app/
+
 
 <img width="1901" height="920" alt="image" src="https://github.com/user-attachments/assets/220c366b-3852-4371-be43-16cd9764f266" />
 
