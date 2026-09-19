@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amaya AI — Clinical intelligence, softly organized</title>
+  <meta name="description" content="Amaya AI is a secure, AI-powered Electronic Health Record platform that turns medical documents into structured patient history, timelines, and clinical summaries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Reenie+Beanie&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="grain" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <filter id="noise">
+        <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" stitchTiles="stitch" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#noise)" />
+    </svg>
+  </div>
+
+  <div class="blobs" aria-hidden="true">
+    <span class="blob blob-peach"></span>
+    <span class="blob blob-lavender"></span>
+    <span class="blob blob-sage"></span>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav-pill" aria-label="Primary">
+      <a class="logo" href="#home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        Amaya AI
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#technology">Technology</a>
+        <a href="#team">Team</a>
+        <a class="nav-cta" href="#explore">Explore Amaya AI</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <p class="badge">End-to-end encrypted • Multi-agent AI • EHR</p>
+      <h1>Clinical <em>intelligence</em>, softly organized.</h1>
+      <p class="lede">Amaya AI transforms medical documents into structured patient history, chronological timelines and AI-assisted clinical summaries through a secure multi-agent EHR system.</p>
+      <div class="hero-actions">
+        <a class="btn btn-dark" href="#explore">Explore Amaya AI</a>
+        <a class="btn btn-ghost" href="#how-it-works">See how it works</a>
+      </div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <article class="float-card card-docs rotate-left">
+          <span class="chip peach">Documents</span>
+          <div class="mini-doc"><i></i><span>Prescription · scanned</span></div>
+          <div class="mini-doc"><i></i><span>Laboratory report</span></div>
+          <div class="mini-doc"><i></i><span>Diagnostic image note</span></div>
+        </article>
+
+        <article class="float-card card-patient">
+          <div class="patient-head">
+            <div class="avatar-soft"></div>
+            <div>
+              <p class="kicker">Patient overview · Sample Data</p>
+              <h3>Maya R.</h3>
+              <p>Unified health profile</p>
+            </div>
+          </div>
+          <div class="stat-row">
+            <span>Records <strong>12</strong></span>
+            <span>Agents <strong>5</strong></span>
+            <span>Status <strong>Structured</strong></span>
+          </div>
+          <div class="agent-row">
+            <span class="node n1"></span>
+            <span class="node n2"></span>
+            <span class="node n3"></span>
+            <span class="node n4"></span>
+            <span class="node n5"></span>
+          </div>
+        </article>
+
+        <article class="float-card card-summary rotate-right">
+          <span class="chip lavender">AI summary</span>
+          <p>Key findings extracted from uploaded records, arranged as a calm clinical narrative for review.</p>
+          <div class="timeline-mini">
+            <span></span><span></span><span></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-inner">
+        <p class="eyebrow">About</p>
+        <h2>One patient. One structured health story.</h2>
+        <p class="section-intro">Amaya AI is designed to create a unified digital health profile for every patient — not a pile of files, but a readable clinical story.</p>
+        <div class="about-layout">
+          <article class="tactile-card sage-wash">
+            <h3>Unified records</h3>
+            <p>Securely organize prescriptions, laboratory reports, diagnostic images and other medical documents.</p>
+          </article>
+          <article class="tactile-card lavender-wash featured">
+            <h3>AI understanding</h3>
+            <p>Use specialized AI agents to extract important clinical information and generate structured understanding.</p>
+          </article>
+          <article class="tactile-card peach-wash">
+            <h3>Secure access</h3>
+            <p>Allow authorized healthcare professionals to access structured medical history through controlled workflows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section problem" id="problem">
+      <div class="section-inner">
+        <p class="eyebrow">The problem</p>
+        <h2>Medical records should tell a story, not become a search task.</h2>
+        <div class="before-after">
+          <div class="ba-col before">
+            <p class="hand-note">before</p>
+            <ul>
+              <li>Scattered documents</li>
+              <li>Different formats</li>
+              <li>Manual review</li>
+              <li>Fragmented history</li>
+            </ul>
+          </div>
+          <div class="converge" aria-hidden="true">
+            <div class="paper p1"></div>
+            <div class="paper p2"></div>
+            <div class="paper p3"></div>
+            <div class="paper p4 profile-core">
+              <span>One profile</span>
+            </div>
+          </div>
+          <div class="ba-col after">
+            <p class="hand-note">after</p>
+            <ul>
+              <li>Secure upload</li>
+              <li>AI processing</li>
+              <li>Chronological timeline</li>
+              <li>Clinical summary</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how" id="how-it-works">
+      <div class="section-inner">
+        <p class="eyebrow">How it works</p>
+        <h2>From document to clinical understanding.</h2>
+        <p class="section-intro">A quiet sequence. Each step is a specialized moment in the same patient workflow.</p>
+      </div>
+      <div class="scroll-track" tabindex="0" aria-label="Workflow steps">
+        <article class="step-card"><span>01</span><h3>Upload</h3><p>Patients add prescriptions, reports and diagnostic documents.</p></article>
+        <article class="step-card"><span>02</span><h3>Encrypt</h3><p>Documents enter end-to-end encrypted storage.</p></article>
+        <article class="step-card"><span>03</span><h3>OCR</h3><p>Text is read from scans and mixed-format files.</p></article>
+        <article class="step-card"><span>04</span><h3>Extract</h3><p>Clinical details are pulled into structured fields.</p></article>
+        <article class="step-card"><span>05</span><h3>Classify</h3><p>Records are typed and placed in the health profile.</p></article>
+        <article class="step-card"><span>06</span><h3>Timeline</h3><p>Events are ordered into a chronological medical story.</p></article>
+        <article class="step-card"><span>07</span><h3>Summarize</h3><p>Agents draft an AI-assisted clinical summary.</p></article>
+        <article class="step-card"><span>08</span><h3>Review</h3><p>Authorized professionals review structured history.</p></article>
+      </div>
+    </section>
+
+    <section class="section agents" id="agents">
+      <div class="section-inner">
+        <p class="eyebrow">Multi-agent AI</p>
+        <h2>One workflow. Many specialized minds.</h2>
+        <p class="section-intro">LangGraph orchestrates specialized agents for document processing, OCR, medical information extraction, timeline creation and summary generation.</p>
+
+        <div class="node-network" role="img" aria-label="LangGraph at the center connected to OCR, medical extraction, classification, timeline, and summary agents">
+          <svg class="node-lines" viewBox="0 0 800 480" aria-hidden="true">
+            <path class="glow-path" d="M400 240 C 280 240, 220 140, 160 120" />
+            <path class="glow-path" d="M400 240 C 520 240, 580 140, 640 120" />
+            <path class="glow-path" d="M400 240 C 260 280, 180 320, 140 360" />
+            <path class="glow-path" d="M400 240 C 540 280, 620 320, 660 360" />
+            <path class="glow-path" d="M400 240 C 400 300, 400 360, 400 410" />
+          </svg>
+          <div class="ai-node center-node">
+            <strong>LangGraph</strong>
+            <span>orchestration</span>
+          </div>
+          <div class="ai-node n-ocr">OCR agent</div>
+          <div class="ai-node n-extract">Medical extraction agent</div>
+          <div class="ai-node n-class">Classification agent</div>
+          <div class="ai-node n-time">Timeline agent</div>
+          <div class="ai-node n-sum">Summary agent</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section security" id="security">
+      <div class="section-inner">
+        <p class="eyebrow">Security</p>
+        <h2>Privacy should feel built in.</h2>
+        <p class="section-intro">Access is controlled. Documents stay encrypted. The interface stays calm.</p>
+        <div class="security-layout">
+          <article class="lock-card">
+            <div class="lock-glyph" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="12" y="22" width="24" height="18" rx="6" stroke="currentColor" stroke-width="1.6"/><path d="M18 22v-6a6 6 0 0 1 12 0v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>End-to-end encrypted document storage</h3>
+            <p>Uploaded medical documents are stored with end-to-end encryption.</p>
+          </article>
+          <article class="lock-card">
+            <div class="lock-glyph sage" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M24 8 10 14v10c0 10 6.5 16 14 18 7.5-2 14-8 14-18V14L24 8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Role-based access control</h3>
+            <p>Permissions follow roles so access stays aligned with who should see what.</p>
+          </article>
+          <article class="lock-card">
+            <div class="lock-glyph peach" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="18" r="7" stroke="currentColor" stroke-width="1.6"/><path d="M10 40c2.5-8 8-12 14-12s11.5 4 14 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Consent-based doctor access</h3>
+            <p>Healthcare professionals reach structured history through consent-based workflows.</p>
+          </article>
+          <article class="lock-card">
+            <div class="lock-glyph" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="20" width="20" height="16" rx="4" stroke="currentColor" stroke-width="1.6"/><circle cx="24" cy="28" r="2" fill="currentColor"/><path d="M24 30v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Secure authentication</h3>
+            <p>JWT authentication protects sessions across the platform.</p>
+          </article>
+          <article class="lock-card wide">
+            <div class="lock-glyph sage" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none"><path d="M12 14h24M12 24h16M12 34h20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Secure activity logging</h3>
+            <p>Important actions are recorded so access remains accountable.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tech" id="technology">
+      <div class="section-inner">
+        <p class="eyebrow">Technology</p>
+        <h2>The quiet machinery behind Amaya AI.</h2>
+        <div class="constellation">
+          <div class="star-group g-front">
+            <span class="orbit-label">Frontend</span>
+            <p>Next.js</p>
+          </div>
+          <div class="star-group g-back">
+            <span class="orbit-label">Backend</span>
+            <p>Node.js · Express</p>
+          </div>
+          <div class="star-group g-ai">
+            <span class="orbit-label">AI</span>
+            <p>Python · LangGraph</p>
+          </div>
+          <div class="star-group g-int">
+            <span class="orbit-label">Integration</span>
+            <p>FastAPI</p>
+          </div>
+          <div class="star-group g-db">
+            <span class="orbit-label">Database</span>
+            <p>MongoDB</p>
+          </div>
+          <div class="star-group g-sec">
+            <span class="orbit-label">Security</span>
+            <p>JWT · RBAC · Encrypted Storage</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ehr" id="explore">
+      <div class="section-inner">
+        <p class="eyebrow">EHR preview</p>
+        <h2>A calmer way to review patient history.</h2>
+        <p class="sample-flag">Sample Data — fictional illustration only. Not a real patient record.</p>
+
+        <div class="ehr-stage">
+          <aside class="ehr-panel timeline-panel">
+            <h3>Medical timeline</h3>
+            <ol class="med-timeline">
+              <li>
+                <span class="dot"></span>
+                <strong>Mar 2026</strong>
+                <p>Prescription uploaded and classified.</p>
+              </li>
+              <li>
+                <span class="dot"></span>
+                <strong>Jan 2026</strong>
+                <p>Laboratory report processed through OCR.</p>
+              </li>
+              <li>
+                <span class="dot"></span>
+                <strong>Nov 2025</strong>
+                <p>Diagnostic image note added to profile.</p>
+              </li>
+            </ol>
+          </aside>
+
+          <article class="ehr-panel overview-panel">
+            <p class="kicker">Patient overview</p>
+            <h3>Maya R. <em>sample</em></h3>
+            <p class="muted">Unified digital health profile</p>
+            <div class="doc-stack">
+              <div class="doc-card rot-a">
+                <span>Prescription</span>
+                <small>Encrypted document</small>
+              </div>
+              <div class="doc-card rot-b">
+                <span>Laboratory report</span>
+                <small>OCR complete</small>
+              </div>
+              <div class="doc-card rot-c">
+                <span>Diagnostic note</span>
+                <small>On timeline</small>
+              </div>
+            </div>
+          </article>
+
+          <aside class="ehr-panel summary-panel">
+            <h3>AI-generated summary</h3>
+            <p>Extracted clinical information is assembled into a readable summary for authorized review. The summary supports clinicians; it does not replace clinical judgment.</p>
+            <ul>
+              <li>Structured fields from uploaded files</li>
+              <li>Chronological event order</li>
+              <li>Ready for professional review</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="team">
+      <div class="section-inner">
+        <p class="eyebrow">Team</p>
+        <h2>Built by the Amaya AI team.</h2>
+        <div class="team-notes">
+          <article class="note-card tilt-a">
+            <div class="abs-avatar a1" aria-hidden="true"></div>
+            <h3>Shivam Kumar Jha</h3>
+            <p>PRN 2314110552</p>
+          </article>
+          <article class="note-card tilt-b">
+            <div class="abs-avatar a2" aria-hidden="true"></div>
+            <h3>Kumar Shubham</h3>
+            <p>PRN 2314110898</p>
+          </article>
+          <article class="note-card tilt-c">
+            <div class="abs-avatar a3" aria-hidden="true"></div>
+            <h3>Rohit Kumar</h3>
+            <p>PRN 2314110545</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section guide" id="guide">
+      <div class="section-inner">
+        <p class="eyebrow">Project guide</p>
+        <h2>Guided by experience.</h2>
+        <article class="guide-card">
+          <p class="hand-note">with gratitude</p>
+          <h3>Mr. Sumedh V. Dhole</h3>
+          <p>Project Guide</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section development" id="development">
+      <div class="section-inner">
+        <p class="eyebrow">Development</p>
+        <h2>From architecture to validated prototype.</h2>
+        <ol class="roadmap">
+          <li><span>01</span> Frontend &amp; backend implementation</li>
+          <li><span>02</span> Secure database integration</li>
+          <li><span>03</span> Encrypted document management</li>
+          <li><span>04</span> Authentication</li>
+          <li><span>05</span> FastAPI communication</li>
+          <li><span>06</span> LangGraph AI workflow</li>
+          <li><span>07</span> Testing &amp; validation</li>
+          <li><span>08</span> Deployment</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-inner">
+        <p class="eyebrow">Questions</p>
+        <h2>A few quiet answers.</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              What is Amaya AI?
+              <span class="plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel">
+              <p>Amaya AI is a secure, AI-powered Electronic Health Record platform designed to create a unified digital health profile for every patient. Patients can securely upload prescriptions, laboratory reports, diagnostic images and other medical documents. Authorized healthcare professionals can access structured medical history.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              How does the multi-agent system work?
+              <span class="plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel">
+              <p>A LangGraph-based multi-agent AI framework analyzes uploaded records, extracts key clinical information, generates intelligent summaries and builds chronological medical timelines. Specialized agents cover OCR, medical extraction, classification, timeline creation and summary generation.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              How is information kept secure?
+              <span class="plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel">
+              <p>The system uses JWT authentication, role-based access control, consent-based doctor access, end-to-end encrypted document storage and secure activity logging.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" aria-expanded="false">
+              Does Amaya AI replace clinicians?
+              <span class="plus" aria-hidden="true"></span>
+            </button>
+            <div class="faq-panel">
+              <p>No. Amaya AI organizes documents and assists review with structured summaries and timelines. Clinical decisions remain with authorized healthcare professionals.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-title">Amaya AI</p>
+      <p>Design and Development of Amaya AI: An End-to-End Encrypted Multi-Agent Clinical Intelligence and Electronic Health Record System.</p>
+      <p class="footer-meta">Academic project · Guided by Mr. Sumedh V. Dhole</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
