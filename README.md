@@ -1,5 +1,6 @@
 # Amaya AI
 **Link:-** https://amaya-ai.netlify.app/
+
 <img width="1901" height="920" alt="image" src="https://github.com/user-attachments/assets/220c366b-3852-4371-be43-16cd9764f266" />
 
 Amaya AI is a static frontend prototype for a secure, AI-assisted electronic health record platform. It presents a calm workflow for turning medical documents into structured patient history, chronological timelines, and review-ready clinical summaries.
